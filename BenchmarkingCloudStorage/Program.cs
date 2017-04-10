@@ -59,6 +59,7 @@ namespace BenchmarkingCloudStorage
        
             for(int i = 0; i < num_files; i++)
             {
+
                 string filePath = "../../files/"+ime+i+".txt";
                 DateTime t1 = DateTime.Now;
                 UploadFile(service, filePath);
